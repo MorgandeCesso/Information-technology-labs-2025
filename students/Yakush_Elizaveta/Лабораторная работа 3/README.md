@@ -25,9 +25,22 @@ docker help attach
 Контейнер работает, пока главный процесс внутри него активен.
 При нажатии Ctrl-C, процесс nginx завершился → контейнер остановился.
 <img width="821" height="388" alt="Снимок экрана 2025-11-20 в 15 42 54" src="https://github.com/user-attachments/assets/f20f913c-39b8-4d3e-bc2f-684c75618333" />
-<img width="428" height="18" alt="Снимок экрана 2025-11-20 в 16 25 45" src="https://github.com/user-attachments/assets/0be8f5e4-f29f-4d7c-ab6b-f48de330cfcf" />
-
+файл /etc/nginx/conf.d/default.conf был отредактирован 
+<img width="382" height="176" alt="Снимок экрана 2025-11-20 в 16 58 02" src="https://github.com/user-attachments/assets/04de3c81-7866-41d2-9dcc-a1bcafdb4fa8" />
+<img width="666" height="444" alt="Снимок экрана 2025-11-20 в 17 01 44" src="https://github.com/user-attachments/assets/74df6827-7721-44d2-96e6-b0a22cbad7da" />
+<img width="686" height="111" alt="Снимок экрана 2025-11-20 в 17 36 49" src="https://github.com/user-attachments/assets/75aad104-1b6f-42d3-a6dc-7cd742a8a2ef" />
+<img width="445" height="23" alt="Снимок экрана 2025-11-20 в 18 29 48" src="https://github.com/user-attachments/assets/b2f8cbb1-be64-4b9a-bd70-2ff09cea7e48" />
 ## Задача 4:
-
+<img width="1092" height="915" alt="Снимок экрана 2025-11-20 в 18 20 45" src="https://github.com/user-attachments/assets/0e303db9-6263-4e5a-bd4d-099c8efe88a3" />
 ## Задача 5:
+Во время выполенения столкнулась с ошибкой в файле compose.yaml. Из за того что в  image: portainer/portainer-ce:latest стоит портейнер latest - тоесть последняя версия, присутсвуют ошибки при работе с Docker 29 версии. Решение нашла на https://github.com/orgs/portainer/discussions/12926
+
+<img width="722" height="446" alt="image" src="https://github.com/user-attachments/assets/36588ad3-6e4a-4196-a69d-a13e8c4c841f" />
+<img width="704" height="432" alt="image" src="https://github.com/user-attachments/assets/ceb107da-2890-46b5-99a8-8b49efbcaf51" />
+<img width="702" height="524" alt="image" src="https://github.com/user-attachments/assets/42079eef-1677-416f-8864-7050d666103f" />
+<img width="2834" height="1720" alt="image" src="https://github.com/user-attachments/assets/8ab9d453-e0df-4d36-aec0-e45951af3ecc" />
+<img width="2826" height="1738" alt="image" src="https://github.com/user-attachments/assets/6d34a96c-984c-4191-8dc7-36e91961c305" />
+<img width="3136" height="2084" alt="image" src="https://github.com/user-attachments/assets/775abf0d-4800-4653-aca2-28e56d734a21" />
+
+
 
