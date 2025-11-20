@@ -7,20 +7,27 @@
 ## Задача 1: Создание и публикация custom-nginx образа
 
 ### Установка Docker и Docker Compose
-<img width="786" height="122" alt="image" src="https://github.com/user-attachments/assets/077708aa-9389-4852-8faa-1e2844f9898c" />
-<img width="805" height="280" alt="Снимок экрана 2025-11-20 в 12 55 59" src="https://github.com/user-attachments/assets/ede69353-60b3-4580-8d2e-c9e135bf61f4" />
-<img width="726" height="158" alt="Снимок экрана 2025-11-20 в 12 57 28" src="https://github.com/user-attachments/assets/c44b2486-a495-4101-9673-545ce8b50efd" />
+<img width="913" height="806" alt="Снимок экрана 2025-11-20 в 15 13 00" src="https://github.com/user-attachments/assets/36804abb-a67f-4209-9078-11179aaeedf6" />
+<img width="882" height="587" alt="Снимок экрана 2025-11-20 в 15 14 48" src="https://github.com/user-attachments/assets/4a04664c-c2ec-4974-9011-87bc5b6a5f51" />
 ### ссылка на страницу моего репозитория https://hub.docker.com/repository/docker/elizansk1/custom-nginx/general
-## Задача 2:
-<img width="1564" height="324" alt="Снимок экрана 2025-11-20 в 13 04 26" src="https://github.com/user-attachments/assets/9dfa09d2-1a1e-43d2-9c3a-b8a320b84ef1" />
+## Задача 2  Работа с контейнером custom-nginx:
+<img width="1112" height="112" alt="Снимок экрана 2025-11-20 в 15 32 45" src="https://github.com/user-attachments/assets/bbb932f4-2f3f-46bd-b51a-e097e708ab16" />
+<img width="1011" height="79" alt="Снимок экрана 2025-11-20 в 15 35 05" src="https://github.com/user-attachments/assets/50e15ea7-f4b0-4300-b729-383a78e6e756" />
+<img width="1007" height="312" alt="Снимок экрана 2025-11-20 в 15 36 08" src="https://github.com/user-attachments/assets/ce916c93-1b64-49b4-bb86-d90f7e2c605c" />
 ## Задача 3:
 ### Узнаём, как подключиться к контейнеру
 Используем docker help:
 docker help attach
 Команда docker attach позволяет подключиться к контейнеру, чтобы видеть его stdout, stderr и при необходимости вводить команды через stdin.
-<img width="1036" height="829" alt="Снимок экрана 2025-11-20 в 13 29 58" src="https://github.com/user-attachments/assets/885cf251-2894-426b-b62e-b99e59f23a2e" />
-<img width="555" height="38" alt="Снимок экрана 2025-11-20 в 13 32 41" src="https://github.com/user-attachments/assets/4fa3ba06-847b-4f7d-896c-0220b9074140" />
+<img width="605" height="187" alt="Снимок экрана 2025-11-20 в 15 38 59" src="https://github.com/user-attachments/assets/c9a19d15-8d9d-4003-8a21-208c46d45b73" />
+<img width="1029" height="67" alt="Снимок экрана 2025-11-20 в 15 40 05" src="https://github.com/user-attachments/assets/305e4da2-4fed-4b37-89e5-992e2e1c424a" />
+Почему контейнер остановился:
+Контейнер работает, пока главный процесс внутри него активен.
+При нажатии Ctrl-C, процесс nginx завершился → контейнер остановился.
+<img width="821" height="388" alt="Снимок экрана 2025-11-20 в 15 42 54" src="https://github.com/user-attachments/assets/f20f913c-39b8-4d3e-bc2f-684c75618333" />
+<img width="428" height="18" alt="Снимок экрана 2025-11-20 в 16 25 45" src="https://github.com/user-attachments/assets/0be8f5e4-f29f-4d7c-ab6b-f48de330cfcf" />
 
 ## Задача 4:
 
 ## Задача 5:
+
