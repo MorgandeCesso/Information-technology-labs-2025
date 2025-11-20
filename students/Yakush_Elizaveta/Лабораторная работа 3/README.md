@@ -34,13 +34,29 @@ docker help attach
 <img width="1092" height="915" alt="Снимок экрана 2025-11-20 в 18 20 45" src="https://github.com/user-attachments/assets/0e303db9-6263-4e5a-bd4d-099c8efe88a3" />
 ## Задача 5:
 Во время выполенения столкнулась с ошибкой в файле compose.yaml. Из за того что в  image: portainer/portainer-ce:latest стоит портейнер latest - тоесть последняя версия, присутсвуют ошибки при работе с Docker 29 версии. Решение нашла на https://github.com/orgs/portainer/discussions/12926
-
 <img width="722" height="446" alt="image" src="https://github.com/user-attachments/assets/36588ad3-6e4a-4196-a69d-a13e8c4c841f" />
 <img width="704" height="432" alt="image" src="https://github.com/user-attachments/assets/ceb107da-2890-46b5-99a8-8b49efbcaf51" />
 <img width="702" height="524" alt="image" src="https://github.com/user-attachments/assets/42079eef-1677-416f-8864-7050d666103f" />
 <img width="2834" height="1720" alt="image" src="https://github.com/user-attachments/assets/8ab9d453-e0df-4d36-aec0-e45951af3ecc" />
 <img width="2826" height="1738" alt="image" src="https://github.com/user-attachments/assets/6d34a96c-984c-4191-8dc7-36e91961c305" />
 <img width="3136" height="2084" alt="image" src="https://github.com/user-attachments/assets/775abf0d-4800-4653-aca2-28e56d734a21" />
+<img width="539" height="48" alt="Снимок экрана 2025-11-20 в 19 13 26" src="https://github.com/user-attachments/assets/12ac5279-7c37-476e-ae51-1ccc142f4797" />
+был удален docker-compose.yaml файл, при выполении команды docker compose up -d произошла ошибка, потому что файл compose.yaml внутри раздела include требует наличие docker-compose.yaml. Предложения от терминало не поступило(логично что нужно создать docker-compose.yaml)
+
+<img width="2102" height="382" alt="image" src="https://github.com/user-attachments/assets/281d3e76-8930-4be4-829a-b8ff48ee65cf" />
+
+ Далее при попытке выполнить комманду docker down также была ошибка
+ 
+<img width="1162" height="126" alt="image" src="https://github.com/user-attachments/assets/552df1ce-ae35-45d3-bb98-5e8d67e41433" />
+
+После этого было удаление по compose.
+
+<img width="2226" height="332" alt="image" src="https://github.com/user-attachments/assets/45bf4728-f2e8-476a-a6b8-a8eaa13bf3d2" />
+
+
+
+
+
 
 
 
